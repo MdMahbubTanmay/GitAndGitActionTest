@@ -19,6 +19,8 @@ int main()
     assert(isEven(1) == false);
     assert(isEven(3) == false);
     assert(isEven(-3) == false);
+    assert(isEven(9) == false);
+    assert(isEven(-9) == false);
 
     cout << "All test Passed!!!!!" << endl;
 }
